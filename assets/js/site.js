@@ -37,6 +37,11 @@
     var applied = document.getElementById("appliedmsg");
     if (applied && /[?&]applied=1/.test(location.search)) applied.classList.remove("d-none");
 
+    // Contact form: preselect the topic from ?topic=hire (used by "Request talent" links)
+    var topicMatch = /[?&]topic=(\w+)/.exec(location.search);
+    var topicOption = topicMatch && document.querySelector('option[data-topic="' + topicMatch[1] + '"]');
+    if (topicOption) topicOption.selected = true;
+
     // Forms: return the visitor to the right page after FormSubmit accepts the submission
     document.querySelectorAll("input[data-next]").forEach(function (input) {
         input.value = new URL(input.getAttribute("data-next"), location.href).href;

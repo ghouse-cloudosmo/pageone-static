@@ -4,7 +4,7 @@ Each page file starts with a metadata comment:
     <!--
     title: Page title
     description: Meta description
-    nav: home | services | ai | development | consulting | training | products | industries | careers | contact
+    nav: home | ai | data | cloud | sap | development | employers | industries | training | careers | contact
     -->
 Run from the repo root:  python3 _build/build.py
 """
@@ -13,7 +13,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BUILD = ROOT / "_build"
-SERVICE_PAGES = {"ai", "development", "consulting", "training"}
+EXPERTISE_PAGES = {"ai", "data", "cloud", "sap", "development"}
 
 
 def parse(page_file):
@@ -31,9 +31,9 @@ def main():
         html = layout.replace("{{content}}", body)
         html = html.replace("{{title}}", meta["title"]).replace("{{description}}", meta["description"])
         # Highlight the current page in the menu
-        for key in ["home", "services", "ai", "development", "consulting", "training",
-                    "products", "industries", "careers", "contact"]:
-            on = key == nav or (key == "services" and nav in SERVICE_PAGES)
+        for key in ["home", "expertise", "ai", "data", "cloud", "sap", "development",
+                    "employers", "industries", "training", "careers", "contact"]:
+            on = key == nav or (key == "expertise" and nav in EXPERTISE_PAGES)
             html = html.replace("{{active_%s}}" % key, " active" if on else "")
         out = ROOT / page_file.name
         out.write_text(html, encoding="utf-8")
