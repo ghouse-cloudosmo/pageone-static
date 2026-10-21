@@ -1034,3 +1034,22 @@ background-color:#7C7C7C;
 .borb {border-bottom:1px solid #000000;}
 .rows {height:27px;}
 .rowsAdmin {height:35px;}
+
+/* Careers: job openings */
+.jobtable {border-collapse:collapse;}
+.jobtable th, .jobtable td {border:#d8d9dc 1px solid; padding:6px 8px; text-align:left; vertical-align:top;}
+.jobtable th {color:#22355f;}
+.jobdesc {padding:6px 0px 12px 0px; line-height:15px;}
+.jobdesc p {margin:6px 0px;}
+.applybtn {display:inline-block; margin-top:6px; padding:6px 14px; background-color:#365186; color:#ffffff; font-weight:bold; text-decoration:none; border:1px solid #22355f;}
+.applybtn:hover {background-color:#22355f;}
+.jobhead {font-family:verdana,tahoma,arial; font-size:12px; font-weight:bold; color:#22355f; text-transform:uppercase;}
+.applyform {margin:0px; padding-top:8px;}
+.applycell {padding:0px 12px 12px 0px; vertical-align:top; width:50%;}
+.applycell label {display:inline-block; padding-bottom:4px; color:#22355f;}
+.applyinput {width:100%; box-sizing:border-box; border-color:#9a9c9e;}
+textarea.applyinput {padding-top:3px;}
+.applyfile {width:100%; box-sizing:border-box; border:1px solid #9a9c9e; padding:6px; font-family:verdana,tahoma,arial; font-size:11px;}
+.req {color:#cc0000;}
+button.applybtn {cursor:pointer; font-family:verdana,tahoma,arial; font-size:11px; text-transform:uppercase;}
+.appliedmsg {margin-bottom:12px; padding:10px 12px; border:1px solid #6283bc; background-color:#f1f3f6; color:#22355f; font-weight:bold;}
