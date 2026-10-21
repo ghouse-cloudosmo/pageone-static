@@ -16,6 +16,7 @@
     --bs-link-hover-color-rgb: 225, 29, 38;
 }
 
+[id] { scroll-margin-top: 90px; }
 body { background: #fff; font-size: 1rem; line-height: 1.65; }
 h1, h2, h3, h4, h5, .display-font { font-family: "Plus Jakarta Sans", var(--bs-body-font-family); color: var(--brand-navy-dark); letter-spacing: -0.01em; }
 p { color: var(--muted); }
@@ -160,6 +161,13 @@ a { text-underline-offset: 3px; }
 /* ---------- Legal text ---------- */
 .legal h2 { font-size: 1.25rem; font-weight: 700; margin: 2.2rem 0 .7rem; }
 .legal p, .legal li { color: var(--ink); }
+
+/* ---------- FAQ ---------- */
+.faq .accordion-item { border: 1px solid var(--line); border-radius: 12px !important; margin-bottom: .75rem; overflow: hidden; background: #fff; }
+.faq .accordion-button { font-family: "Plus Jakarta Sans", sans-serif; font-weight: 700; color: var(--brand-navy-dark); padding: 1.1rem 1.3rem; }
+.faq .accordion-button:not(.collapsed) { background: var(--soft); color: var(--brand-navy-dark); box-shadow: none; }
+.faq .accordion-button:focus { box-shadow: 0 0 0 .2rem rgba(32,56,112,.15); }
+.faq .accordion-body { color: var(--muted); padding: 0 1.3rem 1.2rem; background: var(--soft); }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--brand-navy-deep); color: rgba(255,255,255,.72); padding: 4.5rem 0 0; margin-top: 0; }

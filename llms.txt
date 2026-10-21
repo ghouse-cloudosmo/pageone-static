@@ -1,0 +1,32 @@
+# PageOne Systems, Inc
+
+> PageOne Systems, Inc is an IT staffing and consulting firm based in Alpharetta, Georgia (2700 Lakeview Parkway, Suite 700, Alpharetta, GA 30009, USA). It provides skilled IT professionals in five areas - AI & Machine Learning, Data Engineering, Cloud & DevOps, SAP, and Software Development - through contract staffing (staff augmentation), contract-to-hire, direct hire (permanent placement) and dedicated project teams. It also offers IT training in the same areas.
+
+- General and hiring inquiries: info@pageonesystems.com
+- Careers and job applications: hr@pageonesystems.com
+- Training: training@pageonesystems.com
+- Website: https://pageonesystems.com/
+
+## Expertise (roles PageOne Systems provides)
+
+- [AI & Machine Learning](https://pageonesystems.com/ai.html): data scientists, machine learning engineers, generative AI / LLM engineers, MLOps engineers, NLP and computer vision engineers, AI solution architects.
+- [Data Engineering](https://pageonesystems.com/data-engineering.html): data engineers, data architects, ETL/ELT developers, BI and analytics developers, data analysts, big data engineers.
+- [Cloud & DevOps](https://pageonesystems.com/cloud-devops.html): cloud architects, DevOps engineers, site reliability engineers, Kubernetes and platform engineers, cloud security engineers, Linux administrators. AWS, Azure and Google Cloud.
+- [SAP](https://pageonesystems.com/sap.html): S/4HANA, FICO, MM/SD, ABAP, Basis and BW consultants.
+- [Software Development](https://pageonesystems.com/development.html): full-stack, front-end, back-end, mobile and QA / test automation engineers; business analysts and project managers.
+
+## For employers
+
+- [Hiring models and process](https://pageonesystems.com/employers.html): contract staffing, contract-to-hire, direct hire and dedicated teams; process is share requirement, sourcing and screening, client interviews, onboarding and support.
+- [Industries served](https://pageonesystems.com/clients.html): banking, financial services, insurance, telecom, manufacturing, media and entertainment, retail and consumer goods, transportation, life sciences and healthcare, energy and utilities, state and local government.
+- [Request talent](https://pageonesystems.com/contactus.html)
+
+## For job seekers
+
+- [Current openings](https://pageonesystems.com/careers.html)
+- [Software Developer, Ref. #SASD26, Alpharetta, GA](https://pageonesystems.com/job-sasd26.html)
+
+## Other
+
+- [Training](https://pageonesystems.com/training.html): courses in AI & ML, data engineering, cloud & DevOps, SAP, full-stack development and software testing.
+- [Privacy policy](https://pageonesystems.com/privacy.html)
